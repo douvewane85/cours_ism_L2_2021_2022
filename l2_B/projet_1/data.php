@@ -1,0 +1,25 @@
+<?php 
+$niveaux=["L1","L2","L3","M1","M2"];
+$filieres=["MAE","GLRS","ETSE","ACTUARIAT","MOSIEF"];
+$classes=[
+     [
+         "niveau"=>$niveaux[0],
+         "filiere"=>$filieres[0],
+         "etudiants"=>[
+             ["nom"=>"Diop","prenom"=>"MahMoud","date_naiss"=>"01/01/1990","sexe"=>"M"],
+             ["nom"=>"Diop","prenom"=>"Awa","date_naiss"=>"01/01/1995","sexe"=>"F"],
+             ["nom"=>"Ndiaye","prenom"=>"Anta","date_naiss"=>"01/01/2000","sexe"=>"F"],
+             ["nom"=>"Ka","prenom"=>"Seynabou","date_naiss"=>"01/01/2001","sexe"=>"F"]
+         ]
+    ],
+    [
+        "niveau"=>$niveaux[1],
+        "filiere"=>$filieres[0],
+        "etudiants"=>[
+            ["nom"=>"Diop","prenom"=>"Amadou","date_naiss"=>"01/01/1990","sexe"=>"M"],
+            ["nom"=>"Faye","prenom"=>"Awa","date_naiss"=>"01/01/1995","sexe"=>"F"],
+            ["nom"=>"Ndiaye","prenom"=>"Anta","date_naiss"=>"01/01/2000","sexe"=>"F"],
+            ["nom"=>"Ka","prenom"=>"Seynabou","date_naiss"=>"01/01/2001","sexe"=>"F"]
+        ]
+    ]
+];

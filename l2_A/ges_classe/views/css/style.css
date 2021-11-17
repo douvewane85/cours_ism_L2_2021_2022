@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: whitesmoke;
+    box-sizing: content-box;
+}
+.container{
+    position:fixed;
+    top:20%;
+    left:20%;
+    height: 60%;
+    right: 20%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+.filter form {
+    display: flex;
+}

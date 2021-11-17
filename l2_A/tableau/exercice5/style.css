@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: whitesmoke;
+    box-sizing: content-box;
+}
+.container{
+    position: fixed;
+    top:20%;
+    bottom: 20%;
+    left :20%;
+    right: 20%;
+    background-color: white;
+}
+
+.container table{
+    position: absolute;
+    top:20%;
+    bottom: 20%;
+    left :30%;
+    right: 30%;
+    border: 2px solid ;
+    border-collapse: collapse;
+}
+table td{
+    border: 2px solid;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    width: 40px;
+}

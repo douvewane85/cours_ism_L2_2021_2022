@@ -1,0 +1,76 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: content-box;
+}
+body{
+    background-color: whitesmoke;
+}
+.container{
+    position: fixed;
+    top:10%;
+    bottom: 10%;
+    left:20%;
+    right: 20%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 25px;
+    overflow: auto;
+}
+.container .filtre form{
+    display: flex;
+
+}
+
+.form-group{
+    margin-right: 50px;
+}
+.form-group label{
+    margin-right: 10px;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.form-group select{
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+}
+select option{
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form-group button{
+    width: 75px;
+    height: 30px;
+    border: none;
+    background-color:blueviolet;
+    color: white;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.table {
+   margin: 50px;
+  
+}
+.table table{
+    border: 1px solid;
+    width: 90%;
+    border-collapse: collapse;
+    
+} 
+table td{
+    border: 1px solid;
+   text-align: center;
+   line-height: 30px;
+   font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+table th{
+    border: 1px solid;
+    background-color:blueviolet;
+    color: white;
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
